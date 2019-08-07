@@ -8,6 +8,7 @@
 
 import Foundation
 
+
 class AviatrixData {
     
     var fuelPrices = [
@@ -19,28 +20,28 @@ class AviatrixData {
     
     var knownDistances = [
         "St. Louis" : [
-            "St. Louis" : 0,
-            "Phoenix" : 1260,
-            "Denver" : 768,
-            "SLC" : 1150
+            "St. Louis" : 0.0,
+            "Phoenix" : 1260.0,
+            "Denver" : 768.0,
+            "SLC" : 1150.0
         ],
         "Phoenix" : [
-            "St. Louis" : 1260,
-            "Phoenix" : 0,
-            "Denver" : 601,
-            "SLC" : 508
+            "St. Louis" : 1260.0,
+            "Phoenix" : 0.0,
+            "Denver" : 601.0,
+            "SLC" : 508.0
         ],
         "Denver" : [
-            "St. Louis" : 768,
-            "Phoenix" : 601,
-            "Denver" : 0,
-            "SLC" : 390
+            "St. Louis" : 768.0,
+            "Phoenix" : 601.0,
+            "Denver" : 0.0,
+            "SLC" : 390.0
         ],
         "SLC" : [
-            "St. Louis" : 1150,
-            "Phoenix" : 508,
-            "Denver" : 390,
-            "SLC" : 0
+            "St. Louis" : 1150.0,
+            "Phoenix" : 508.0,
+            "Denver" : 390.0,
+            "SLC" : 0.0
         ]
     ]
     
