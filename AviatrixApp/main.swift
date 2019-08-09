@@ -56,25 +56,22 @@ func refuel(myPlane : Aviatrix) {
     let refuelData = myPlane.refuel()
     
     print("Refueling...")
-    print("⛽ Here in \(myPlane.location), jet fuel costs \(myPlane.fuelCost)")
+    print("⛽ Here in \(myPlane.location), jet fuel costs \(myPlane.fuelcost)")
     print("⛽ You refueled _________ gallons totaling _________")
 }
-
 func fuelCheck(myPlane : Aviatrix, destination : String) -> Bool {
 //    let distanceToTravel =  Double(myPlane.distanceTo(target : destination))
 //    if myPlane.fuelLevel < distanceToTravel {
 //        print(" ")
-//        print("🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥")
+//        print("🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 ")
 //        print("Oh no! You've run out of fuel and crashed on the way to \(myPlane.location)!")
 //        print("🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥")
-//
 //        return false
 //    } else {
 //        return true
 //    }
-    return true
+    return 
 }
-
 var plane = Aviatrix(authorName: "Sameeha and Waincey")
 
 print("Welcome to the Aviatrix Flight System by \(plane.author)")

@@ -39,7 +39,6 @@ class Aviatrix {
         let fuelUsed = Double(distanceTraveled)/milesPerGallon
         fuelLevel -= Int(fuelUsed)
         currentLocation = destination
-        
     }
     
     func distanceTo(target : String, current : String) -> Double {
